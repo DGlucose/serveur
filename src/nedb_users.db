@@ -1,0 +1,3 @@
+{"login":"test","password":"test","lastname":"test","firstname":"test","contacts":["best","nest"],"_id":"FxZyZYiyVjJmZYGL"}
+{"login":"nest","password":"test","lastname":"test","firstname":"test","contacts":["best","test"],"_id":"FxZyZYiyVjJmvfgL"}
+{"login":"best","password":"test","lastname":"test","firstname":"test","contacts":["nest","test"],"_id":"FxZyZYiythJmvfgL"}
