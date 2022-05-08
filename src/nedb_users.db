@@ -1,3 +1,4 @@
-{"login":"test","password":"test","lastname":"test","firstname":"test","contacts":["best","nest"],"_id":"FxZyZYiyVjJmZYGL"}
-{"login":"nest","password":"test","lastname":"test","firstname":"test","contacts":["best","test"],"_id":"FxZyZYiyVjJmvfgL"}
-{"login":"best","password":"test","lastname":"test","firstname":"test","contacts":["nest","test"],"_id":"FxZyZYiythJmvfgL"}
+{"login":"test","password":"test","lastname":"test","firstname":"test","contacts":["best","nest","fest"],"_id":"FxZyZYiyVjJmZYGL"}
+{"login":"nest","password":"test","lastname":"test","firstname":"test","contacts":["best","test","fest"],"_id":"FxZyZYiyVjJmvfgL"}
+{"login":"best","password":"test","lastname":"test","firstname":"test","contacts":["nest","test","fest"],"_id":"FxZyZYiythJmvfgL"}
+{"login":"fest","password":"test","lastname":"test","firstname":"test","contacts":["test","best","nest"],"_id":"XDpT3kwAnxkRhrVn"}

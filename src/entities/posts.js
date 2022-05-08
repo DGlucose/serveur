@@ -16,6 +16,7 @@ class Posts{
                 if (docs===[]){
                     reject();
                 }else{
+                    console.log(docs)
                     postid=docs[0]._id
                     resolve(postid);
                 }
@@ -28,7 +29,7 @@ class Posts{
     getAll(){
         return new Promise((resolve,reject)=>
         
-        this.db.find({},{newpost:1}, function(err,docs){
+        this.db.find({},{}, function(err,docs){
             if (err){
                 console.log(err);
                 reject();

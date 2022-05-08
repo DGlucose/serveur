@@ -116,7 +116,7 @@ function init(db) {
     router.put("/user/follow/:id", async (req, res) => {
 
         if (req.body._id !== req.params.id) {
-            console.log(req.body.login)
+            console.log(req.body)
           try {
 
             const user = await users.existsuser(req.params.id);
@@ -146,7 +146,7 @@ function init(db) {
         if (newpost==='' || date==='' || userid===''){
             res.status(400).send("Missing field");
         }else{
-            posts.createPost(newpost,userid,date)
+            posts.createPost(newpost,date)
                 .then((post_id) => res.status(201).send({ id: post_id }))
                 .catch((err)=>res.status(500).send(err));
         }
