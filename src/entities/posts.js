@@ -6,9 +6,9 @@ class Posts{
     // suite plus tard avec la BD
     }
 
-    createPost(newpost,date){
+    createPost(newpost,date,userid){
         return new Promise((resolve, reject) => {
-            let post={date:date,newpost:newpost}
+            let post={date:date,newpost:newpost,userid:userid}
             this.db.insert(post)  
             var postid;
             this.db.find({date:date,newpost:newpost},{_id:1}, function(err,docs){

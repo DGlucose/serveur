@@ -142,11 +142,11 @@ function init(db) {
 
 //apiposts
     router.put("/post",(req,res)=>{
-        const {newpost,userid,date}=req.body;
+        const {newpost,date,userid}=req.body;
         if (newpost==='' || date==='' || userid===''){
             res.status(400).send("Missing field");
         }else{
-            posts.createPost(newpost,date)
+            posts.createPost(newpost,date,userid)
                 .then((post_id) => res.status(201).send({ id: post_id }))
                 .catch((err)=>res.status(500).send(err));
         }
